@@ -64,21 +64,6 @@
 				</ul>
 			</div>
 			
-			<div id="sidebarTagsSection">
-				<h4 class="sidebarHeader">Tags:</h4>
-				<ul id="sidebarTagList">
-					<li>
-						<a href="" id="makersTag">Makers</a>
-					</li>
-					<li>
-						<a href="" id="eventDetailsTag">Event Details</a>
-					</li>
-					<li>
-						<a href="" id="announcementsTag">Announcements</a>
-					</li>
-					
-				</ul>
-			</div>
 			
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">

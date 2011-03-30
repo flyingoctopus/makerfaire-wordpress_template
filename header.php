@@ -56,9 +56,9 @@
 		<?php if (is_front_page()) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home-selected"><a href="/">Home</a></li>
+					<li id="nav-about"><a href="/">About</a></li>
+					<li id="nav-blog-selected"><a href="/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-media_centre"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about"><a href="/about/">About</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
@@ -67,9 +67,9 @@
 		<?php } elseif (is_page('makers')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home"><a href="/">Home</a></li>
+					<li id="nav-about"><a href="/">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
 					<li id="nav-makers-selected"><a href="/makers/">Makers</a></li>
-					<li id="nav-media_centre"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about"><a href="/about/">About</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
@@ -78,8 +78,8 @@
 		<?php } elseif (is_page('media_centre')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home"><a href="/">Home</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-about"><a href="/about">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
 					<li id="nav-media_centre-selected"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about"><a href="/about/">About</a></li>
@@ -89,8 +89,8 @@
 		<?php } elseif (is_page('sponsorship')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home"><a href="/">Home</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-about"><a href="/about">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
 					<li id="nav-media_centre"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship-selected"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about"><a href="/about/">About</a></li>
@@ -100,8 +100,8 @@
 		<?php } elseif (is_page('about')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home"><a href="/">Home</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-about-selected"><a href="/about">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
 					<li id="nav-media_centre"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about-selected"><a href="/about/">About</a></li>
@@ -111,8 +111,8 @@
 		<?php } elseif (is_page('contact')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-home"><a href="/">Home</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-about"><a href="/about">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
 					<li id="nav-media_centre"><a href="/media_centre">Media Centre</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsorship</a></li>
 					<li id="nav-about"><a href="/about/">About</a></li>

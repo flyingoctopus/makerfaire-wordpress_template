@@ -148,7 +148,7 @@ header
 {
 /*	position:relative;*/	
 /*	display:block;*/
-	width:635px;
+	width:770px;
 	padding: 1em 0 1em 0;
 	margin:0;
 	top:40px;
@@ -163,31 +163,41 @@ header
 	float:left;
 }
 
-/*home*/
-.nav #nav-home a
+/*about*/
+.nav #nav-about a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-home.png') 0px 0px;
-	width:58px;
-	height:30px;
+	background: url('images/nav_about_74x29.png') 0px 0px;
+	width:74px;
+	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-home-selected a
+.nav #nav-about-selected a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-home.png') 0px 30px;
+	background: url('images/nav_about_74x29.png') 0px 30px;
+	width:74px;
+	height:29px;
+	text-indent: -100000px;
+}
+
+.nav #nav-blog a:hover
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_blog_58x29.png') 0px 0px;
 	width:58px;
 	height:30px;
 	text-indent: -100000px;
 }
 
-.nav #nav-home a:hover
+.nav #nav-blog-selected a:hover
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-home.png') 0px 30px;
+	background: url('images/nav_blog_58x29.png') 0px 30px;
 	width:58px;
 	height:30px;
 	text-indent: -100000px;
@@ -198,26 +208,17 @@ header
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-makers.png') 0px 0px;
-	width:84px;
-	height:30px;
-	text-indent: -100000px;
-}
-.nav #nav-makers-selected a
-{
-	display:block;
-	position:relative;
-	background: url('images/nav-makers.png') 0px 30px;
+	background: url('images/nav_makers_84x29.png') 0px 0px;
 	width:84px;
 	height:30px;
 	text-indent: -100000px;
 }
 
-.nav #nav-makers a:hover
+.nav #nav-makers-selected a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-makers.png') 0px 30px;
+	background: url('images/nav_makers_84x29.png') 0px 30px;
 	width:84px;
 	height:30px;
 	text-indent: -100000px;
