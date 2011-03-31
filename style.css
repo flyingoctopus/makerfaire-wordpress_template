@@ -173,17 +173,30 @@ header
 	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-about-selected a
+
+.nav #nav-about a:hover
 {
 	display:block;
 	position:relative;
-	background: url('images/nav_about_74x29.png') 0px 30px;
+	background: url('images/nav_about_74x29.png') 0px 29px;
 	width:74px;
 	height:29px;
 	text-indent: -100000px;
 }
 
-.nav #nav-blog a:hover
+.nav #nav-about-selected a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_about_74x29.png') 0px 29px;
+	width:74px;
+	height:29px;
+	text-indent: -100000px;
+}
+/*about end*/
+
+/*nav blog*/
+.nav #nav-blog a
 {
 	display:block;
 	position:relative;
@@ -193,15 +206,26 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-blog-selected a:hover
+.nav #nav-blog a:hover
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_blog_58x29.png') 0px 0px;
+	width:58px;
+	height:29px;
+	text-indent: -100000px;
+}
+
+.nav #nav-blog-selected a
 {
 	display:block;
 	position:relative;
 	background: url('images/nav_blog_58x29.png') 0px 30px;
 	width:58px;
-	height:30px;
+	height:29px;
 	text-indent: -100000px;
 }
+/*blog end*/
 
 /*makers*/
 .nav #nav-makers a
@@ -210,7 +234,17 @@ header
 	position:relative;
 	background: url('images/nav_makers_84x29.png') 0px 0px;
 	width:84px;
-	height:30px;
+	height:29px;
+	text-indent: -100000px;
+}
+
+.nav #nav-makers a:hover
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_makers_84x29.png') 0px 29px;
+	width:84px;
+	height:29px;
 	text-indent: -100000px;
 }
 
@@ -218,59 +252,63 @@ header
 {
 	display:block;
 	position:relative;
-	background: url('images/nav_makers_84x29.png') 0px 30px;
+	background: url('images/nav_makers_84x29.png') 0px 29px;
 	width:84px;
-	height:30px;
+	height:29px;
+	text-indent: -100000px;
+}
+/*makers end*/
+
+/*tickets*/
+.nav #nav-tickets a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_tickets_85x29_04.png') 0px 0px;
+	width:85px;
+	height:29px;
 	text-indent: -100000px;
 }
 
-/*media_centre*/
-.nav #nav-media_centre a
+.nav #nav-tickets a:hover
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-media_centre.png') 0px 0px;
-	width:134px;
-	height:30px;
-	text-indent: -100000px;
-}
-.nav #nav-media_centre-selected a
-{
-	display:block;
-	position:relative;
-	background: url('images/nav-media_centre.png') 0px 30px;
-	width:134px;
-	height:30px;
+	background: url('images/nav_tickets_85x29_04.png') 0px 29px;
+	width:85px;
+	height:29px;
 	text-indent: -100000px;
 }
 
-.nav #nav-media_centre a:hover
+.nav #nav-tickets-selected a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-media_centre.png') 0px 30px;
-	width:134px;
+	background: url('images/nav_tickets_85x29_04.png') 0px 29px;
+	width:85px;
 	height:30px;
 	text-indent: -100000px;
 }
+/*tickets end*/
+
 
 /*sponsorship*/
 .nav #nav-sponsorship a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-sponsorship.png') 0px 0px;
-	width:134px;
-	height:30px;
+	background: url('images/nav_sponsors_103x29.png') 0px 0px;
+	width:103px;
+	height:29px;
 	text-indent: -100000px;
 }
 .nav #nav-sponsorship-selected a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-sponsorship.png') 0px 30px;
-	width:134px;
-	height:30px;
+	background: url('images/nav_sponsors_103x29.png') 0px 29px;
+	width:103px;
+	height:29px;
 	text-indent: -100000px;
 }
 
@@ -278,41 +316,44 @@ header
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-sponsorship.png') 0px 30px;
-	width:134px;
-	height:30px;
+	background: url('images/nav_sponsors_103x29.png') 0px 29px;
+	width:103px;
+	height:29px;
+	text-indent: -100000px;
+}
+/*sponsorship end*/
+
+
+/*visitor-info*/
+.nav #nav-visitor-info a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_visitorinfo_126x29.png') 0px 0px;
+	width:126px;
+	height:29px;
+	text-indent: -100000px;
+}
+.nav #nav-visitor-info-selected a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_visitorinfo_126x29.png') 0px 29px;
+	width:126px;
+	height:29px;
 	text-indent: -100000px;
 }
 
-/*about*/
-.nav #nav-about a
+.nav #nav-visitor-info a:hover
 {
 	display:block;
 	position:relative;
-	background: url('images/nav-about.png') 0px 0px;
-	width:74px;
-	height:30px;
+	background: url('images/nav_visitorinfo_126x29.png') 0px 29px;
+	width:126px;
+	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-about-selected a
-{
-	display:block;
-	position:relative;
-	background: url('images/nav-about.png') 0px 30px;
-	width:74px;
-	height:30px;
-	text-indent: -100000px;
-}
-
-.nav #nav-about a:hover
-{
-	display:block;
-	position:relative;
-	background: url('images/nav-about.png') 0px 30px;
-	width:74px;
-	height:30px;
-	text-indent: -100000px;
-}
+/*visitor-info*/
 
 
 /*contact*/
@@ -344,6 +385,7 @@ header
 	height:30px;
 	text-indent: -100000px;
 }
+/*contact end*/
 
 /*main content*/
 

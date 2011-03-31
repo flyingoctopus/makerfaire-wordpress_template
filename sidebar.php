@@ -6,10 +6,7 @@
 ?>
 	<div id="sidebar" role="complementary">		
 		<ul>
-							<!-- <?php get_search_form(); ?> -->
-						</li>
-			<div id="sidebarSocialSection">
-				<!-- <div style="width:195px; display:block; position: relative; text-align:center; left: 10px;" ><iframe  src="http://www.eventbrite.com/calendar-widget?eid=1218156539" frameborder="0" height="489" width="220" marginheight="0" marginwidth="0" scrolling="no" ></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ></div></div> -->
+			<!-- <div id="sidebarSocialSection">
 			<h4 class="sidebarHeader">For News &amp; Updates:</h4>
 			<li>
 				<ul id="sidebar-social-icons">
@@ -62,79 +59,22 @@
 				}
 				?>
 				</ul>
-			</div>
+			</div> -->
 			
 			
 		<div id="primary" class="widget-area" role="complementary">
-			<ul class="xoxo">
+			<ul>
 
-<?php
-	/* When we call the dynamic_sidebar() function, it'll spit out
-	 * the widgets for that widget area. If it instead returns false,
-	 * then the sidebar simply doesn't exist, so we'll hard-code in
-	 * some default sidebar stuff just in case.
-	 */
-	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
+                <?php
+                /* When we call the dynamic_sidebar() function, it'll spit out
+                 * the widgets for that widget area. If it instead returns false,
+                 * then the sidebar simply doesn't exist, so we'll hard-code in
+                 * some default sidebar stuff just in case.
+                 */
+                if ( !dynamic_sidebar('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 	
-			<!-- <li id="search" class="widget-container widget_search">
-				<?php get_search_form(); ?>
-			</li>
-
-			<li id="archives" class="widget-container">
-				<h3 class="widget-title"><?php _e( 'Archives', 'twentyten' ); ?></h3>
-				<ul>
-					<?php wp_get_archives( 'type=monthly' ); ?>
-				</ul>
-			</li>
-
-			<li id="meta" class="widget-container">
-				<h3 class="widget-title"><?php _e( 'Meta', 'twentyten' ); ?></h3>
-				<ul>
-					<?php wp_register(); ?>
-					<li><?php wp_loginout(); ?></li>
-					<?php wp_meta(); ?>
-				</ul>
-			</li> -->
-
-		<?php endif; // end primary widget area ?>
-			</ul>
+                <?php endif; // end primary widget area ?>
+            </ul>
 		</div><!-- #primary .widget-area -->
 
-<?php
-	// A second sidebar for widgets, just because.
-	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
-
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
-			</ul>
-		</div><!-- #secondary .widget-area -->
-
-<?php endif; ?>
-		<ul role="navigation">
-					<!-- <?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?> -->
-
-					<!-- <li><h2>Archives</h2>
-						<ul>
-						<?php wp_get_archives('type=monthly'); ?>
-						</ul>
-					</li> -->
-
-					<!-- <?php wp_list_categories('show_count=1&title_li=<h2>Categories</h2>'); ?> -->
-				</ul>
-		<!-- <ul>
-
-				<li><h2>Meta</h2>
-								<ul>
-									<?php wp_register(); ?>
-									<li><?php wp_loginout(); ?></li>
-									<li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
-									<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
-									<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
-									<?php wp_meta(); ?>
-								</ul>
-								</li>
-
-		</ul> -->
-	</div>
-
+</div>
