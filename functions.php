@@ -1,16 +1,15 @@
 <?php
 /**
- * @package bluemollusc
- * @subpackage Default_Theme
+ * @package bluemollusc-flyingoctopus
+ * @subpackage maker_faire
  */
-
-$content_width = 280;
 
 // automatic_feed_links();
 
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
-        'name'          => sprintf(__('Sidebar of Aweeeessoommee!!!'), $i ),
+        //'name'          => sprintf(__('Sidebar of Aweeeessoommee!!!'), $i ),
+        'name'          => sprintf('Best Sidebar Ever'),
         'id'            => 'sidebar$i',
         'description'   => '',
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',

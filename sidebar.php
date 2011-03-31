@@ -6,7 +6,7 @@
 ?>
 	<div id="sidebar" role="complementary">		
 		<ul>
-			<!-- <div id="sidebarSocialSection">
+			<div id="sidebarSocialSection">
 			<h4 class="sidebarHeader">For News &amp; Updates:</h4>
 			<li>
 				<ul id="sidebar-social-icons">
@@ -59,9 +59,12 @@
 				}
 				?>
 				</ul>
-			</div> -->
+			</div> 
+
 			
 			
+    </ul>
+    <ul>
 		<div id="primary" class="widget-area" role="complementary">
 			<ul>
 
@@ -71,10 +74,10 @@
                  * then the sidebar simply doesn't exist, so we'll hard-code in
                  * some default sidebar stuff just in case.
                  */
-                if ( !dynamic_sidebar('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+                if ( !function_exists("dynamic_sidebar") || !dynamic_sidebar("Best Sidebar Ever") ) : ?>
 	
                 <?php endif; // end primary widget area ?>
             </ul>
 		</div><!-- #primary .widget-area -->
-
+    </ul>
 </div>
