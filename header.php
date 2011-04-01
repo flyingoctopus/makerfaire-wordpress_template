@@ -62,6 +62,7 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -74,6 +75,7 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -86,6 +88,7 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -98,6 +101,7 @@
 					<li id="nav-tickets-selected"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact-selected"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -110,10 +114,11 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship-selected"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
-		<?php } elseif (is_page('visitor_info')) { ?>
+		<?php } elseif (is_page('visitor-info')) { ?>
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about-selected"><a href="/about/">About</a></li>
@@ -122,6 +127,20 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
+					<li id="nav-contact"><a href="/contact/">Contact</a></li>
+				</ul>
+			</div>
+		<?php } elseif (is_page('media_centre')) { ?>
+			<div id="nav">
+				<ul class="nav">
+					<li id="nav-about-selected"><a href="/about/">About</a></li>
+					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
+					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
+					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media-selected"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -134,6 +153,7 @@
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact-selected"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>

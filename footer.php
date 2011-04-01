@@ -10,16 +10,17 @@
 <?php /* "It's a bird! It's a plane! It's flyingoctopus!" */ ?>
 		<!-- wordpress generated content start -->
 		
-		<?php wp_footer(); ?>
+		<footer>
+
+            <?php wp_footer(); ?>
 		
 		<!-- wordpress generated content end -->
 		
-		<footer>
 			<hr />
 			<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
 				<p>
 					<?php bloginfo('name'); ?> is proudly powered by
-					<a href="http://wordpress.org/">WordPress</a> and a <a href="http://flyingoctopus.net">flyingoctopus!</a>
+					<a href="http://wordpress.org/">WordPress</a>, a <a href="http://bluemollusc.com">blue mollusc</a>, and a <a href="http://flyingoctopus.net">flyingoctopus!</a>
 					<br /><a href="http://feeds.feedburner.com/MakerfaireVancouver">Entries (RSS)</a>
 					and <a href="http://feeds.feedburner.com/ MakerfaireVancouverComments">Comments (RSS)</a>.
 					<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->

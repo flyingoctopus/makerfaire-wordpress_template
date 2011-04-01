@@ -42,28 +42,11 @@
 				<p>Be a volunteer! <a href="mailto:vancouver@makerfaire.ca?subject=I would love to volunteer at Maker Faire Vancouver!">Email us</a> for more details.</p>
 			</div>
 			
-			<div id="sidebarSponsorsSection">
-				<h4 class="sidebarHeader">Sponsors:</h4>
-				
-				<ul id="sponsorList">
-				<?php
-				//Modify the category=# below to match your category id #.
-				$link = get_bookmarks('category=3&orderby=updated&order=ASC');
-				foreach ($link as $bmark) {
-					// if (strlen($bmark->link_image)>2) {
-						//HTML line one ?>
-						<li>
-							<a href="<?=$bmark->link_url;?>" target="_blank"><img src="<?=$bmark->link_image;?>" alt="<?=$bmark->link_name;?>" align="left" /></a><a href="<?=$bmark->link_url;?>" target="_blank">
-						</li>
-				<?php
-				}
-				?>
-				</ul>
-			</div> 
 
 			
 			
     </ul>
+
     <ul>
 		<div id="primary" class="widget-area" role="complementary">
 			<ul>
@@ -79,5 +62,26 @@
                 <?php endif; // end primary widget area ?>
             </ul>
 		</div><!-- #primary .widget-area -->
+    </ul>
+
+    <ul>
+        <div id="sidebarSponsorsSection">
+            <h4 class="sidebarHeader">Sponsors:</h4>
+            
+            <ul id="sponsorList">
+            <?php
+            //Modify the category=# below to match your category id #.
+            $link = get_bookmarks('category=3&orderby=updated&order=ASC');
+            foreach ($link as $bmark) {
+                // if (strlen($bmark->link_image)>2) {
+                    //HTML line one ?>
+                    <li>
+                        <a href="<?=$bmark->link_url;?>" target="_blank"><img src="<?=$bmark->link_image;?>" alt="<?=$bmark->link_name;?>" align="left" /></a><a href="<?=$bmark->link_url;?>" target="_blank">
+                    </li>
+            <?php
+            }
+            ?>
+            </ul>
+        </div> 
     </ul>
 </div>

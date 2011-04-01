@@ -355,6 +355,36 @@ header
 }
 /*visitor-info*/
 
+/*media*/
+.nav #nav-media a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_media_73x29_2.png') 0px 0px;
+	width:73px;
+	height:29px;
+	text-indent: -100000px;
+}
+.nav #nav-media-selected a
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_media_73x29_2.png') 0px 29px;
+	width:73px;
+	height:29px;
+	text-indent: -100000px;
+}
+
+.nav #nav-media a:hover
+{
+	display:block;
+	position:relative;
+	background: url('images/nav_media_73x29_2.png') 0px 29px;
+	width:73px;
+	height:29px;
+	text-indent: -100000px;
+}
+/*visitor-info*/
 
 /*contact*/
 .nav #nav-contact a
@@ -434,7 +464,7 @@ header
 #sidebarSocialSection
 {
 	padding:1em 1em 2.5em 1.7em;
-	background-color:#e9e9e9;
+	/*background-color:#e9e9e9;*/
 	height:auto;
 }
 
@@ -493,7 +523,7 @@ header
 {
 	margin-top:20px;
 	padding:1em 1em 2.5em 1.7em;
-	background-color:#e9e9e9;
+	/*background-color:#e9e9e9;*/
 	height:auto;
 }
 
@@ -514,7 +544,7 @@ header
 {
 	margin-top:20px;
 	padding:1em 1em 25.5em 1.7em;
-	background-color:#e9e9e9;
+	/*background-color:#e9e9e9;*/
 	height:auto;
 }
 
@@ -617,11 +647,12 @@ h3 a
 
 footer
 {
-	position:relative;
-	background-color:#eee;
+	position:absolute;
+	/*background-color:#eee;*/
 	padding:20px;
-	margin-top:600px;
 	text-align:center;
+    left: 30px;
+
 }
 
 
