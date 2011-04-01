@@ -7,23 +7,7 @@
 	<div id="sidebar" role="complementary">		
 		<ul>
 			<div id="sidebarSocialSection">
-			<h4 class="sidebarHeader">For News &amp; Updates:</h4>
-			<li>
-				<ul id="sidebar-social-icons">
-					<li >
-						<a href="http://twitter.com/makerfaire_van" id="social-icon-twitter">You should follow us on Twitter</a>
-					</li>
-					<li>
-						<a href="http://www.facebook.com/#!/group.php?gid=144975278874680" id="social-icon-facebook">You should follow us on Facebook</a>
-					</li>
-					<li>
-						<a href="http://feeds.feedburner.com/MakerfaireVancouver" id="social-icon-rss">You should subscribe to our RSS feed</a>
-					</li>
-				</ul>
-			</li>
-			<li><br><br><br><br>
 				<a href="http://vancouvermakerfaire.eventbrite.com?ref=ebtn" target="_blank"  ><img border="0" src="http://www.eventbrite.com/registerbutton?eid=1218156539" alt="Register for Vancouver Mini Maker Faire in Vancouver, Canada  on Eventbrite" /></a>
-			</li>
 			</div>
 			
 			
@@ -64,24 +48,4 @@
 		</div><!-- #primary .widget-area -->
     </ul>
 
-    <ul>
-        <div id="sidebarSponsorsSection">
-            <h4 class="sidebarHeader">Sponsors:</h4>
-            
-            <ul id="sponsorList">
-            <?php
-            //Modify the category=# below to match your category id #.
-            $link = get_bookmarks('category=3&orderby=updated&order=ASC');
-            foreach ($link as $bmark) {
-                // if (strlen($bmark->link_image)>2) {
-                    //HTML line one ?>
-                    <li>
-                        <a href="<?=$bmark->link_url;?>" target="_blank"><img src="<?=$bmark->link_image;?>" alt="<?=$bmark->link_name;?>" align="left" /></a><a href="<?=$bmark->link_url;?>" target="_blank">
-                    </li>
-            <?php
-            }
-            ?>
-            </ul>
-        </div> 
-    </ul>
 </div>
