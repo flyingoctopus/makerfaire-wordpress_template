@@ -118,7 +118,7 @@
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
-		<?php } elseif (is_page('visitor-info')) { ?>
+		<?php } elseif (is_page('visitor_info')) { ?>
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about-selected"><a href="/about/">About</a></li>

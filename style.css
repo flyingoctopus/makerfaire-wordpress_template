@@ -459,6 +459,82 @@ header
 	margin-bottom:1em;
 }
 
+#ticketsButton
+{
+    text-indent:-3000000px;
+}
+
+#ticketsButton a
+{
+    width:251px;
+    height:72px;
+    background: url('images/btn_getyourtickets_255px.png') 0px 0px;
+    display:block;
+}
+
+#ticketsButton a:hover
+{
+    width:251px;
+    height:72px;
+    background: url('images/btn_getyourtickets_255px.png') 0px 73px;
+    display:block;
+}
+
+#mailinglistButton
+{
+    text-indent: -3000000px;
+}
+
+#mailinglistButton a
+{
+    width:251px;
+    height:73px;
+    background: url('images/btn_mailinglist_255px.png') 0px 0px;
+    display:block;
+}
+
+#mailinglistButton a:hover
+{
+    width:251px;
+    height:73x;
+    background: url('images/btn_mailinglist_255px.png') 0px 73px;
+    display:block;
+}
+
+#donateButton
+{
+    text-indent: -3000000px;
+}
+
+#donateButtonImg
+{
+    width:251px;
+    height:72px;
+    background: url('images/btn_donate_255px.png') 0px 0px;
+    display:block;
+}
+
+#donateButton a
+{
+    width:251px;
+    height:72px;
+    background: url('images/btn_donate_255px.png') 0px 0px;
+    display:block;
+}
+
+#donateButton a:hover
+{
+    width:251px;
+    height:73x;
+    background: url('images/btn_donate_255px.png') 0px 73px;
+    display:block;
+}
+
+.widget-area ul
+{
+    padding: 0px;
+}
+
 /*social section*/
 
 #sidebarSocialSection
@@ -522,19 +598,30 @@ header
 #sidebarPaymentSection
 {
 	margin-top:20px;
-	padding:1em 1em 2.5em 1.7em;
-	/*background-color:#e9e9e9;*/
 	height:auto;
 }
 
 #paypalButton
 {
-	/*background: url('images/paypal-button.png') 0px 0px;*/
+}
+
+#paypalButton a
+{
+    background: url('images/btn_donate_255px.png') 0px 0px;
     position:relative;
-	width:180px;
-	height:80px;
-	left:25px;
-    top:10px;
+	width:251px;
+	height:142px;
+	/*left:25px;*/
+    /*top:10px;*/
+}
+#paypalButton a:hover
+{
+    background: url('images/btn_donate_255px.png') 0px 0px;
+    position:relative;
+	width:251px;
+	height:142px;
+	/*left:25px;*/
+    /*top:10px;*/
 }
 
 /*paypal*/
@@ -636,6 +723,11 @@ h3
 }
 
 h3 a
+{
+	color:#3979C8;
+	/*text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);*/
+}
+h3 a:visited
 {
 	color:#3979C8;
 	/*text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);*/
