@@ -459,6 +459,51 @@ header
 	margin-bottom:1em;
 }
 
+#countdown {
+    height:auto;
+    overflow:auto;
+}
+
+.countdownBlock {
+    float: left;
+    display:block;
+    overflow:hidden;
+    text-align:center;
+    height:70px;
+    width:55px;
+}
+
+.countdownBlock2 {
+    float: left;
+    display:block;
+    overflow:hidden;
+    height:50px;
+    width:12px;
+}
+
+.countdownBlock3 {
+    float: left;
+    display:block;
+    overflow:hidden;
+    height:15px;
+    width:100%;
+    text-align:center;
+}
+
+.countdownBlock h3 {
+    font-size: 42px;
+    color: #E20212;
+    text-shadow: 1px 1px 0px #bad3ed;
+    font-weight: bold;
+}
+
+.countdownBlock2 h3 {
+    font-size: 42px;
+    color: #344251;
+    text-shadow: 1px 1px 0px #bad3ed;
+    font-weight: bold;
+}
+
 #ticketsButton
 {
     text-indent:-3000000px;
@@ -733,6 +778,10 @@ h3 a:visited
 	/*text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);*/
 }
 
+/*.entry p {
+	padding-bottom: 24px;
+}*/
+
 
 
 /*footer*/
@@ -745,6 +794,47 @@ footer
 	text-align:center;
     left: 30px;
 
+}
+
+
+
+
+
+
+/* post related stylesheets */
+/* TODO: find 'wordpressy' (blech) solution */
+.blurb {
+    padding-top:20px;
+    display:block;
+    overflow:auto;
+    width:100%
+    padding-bottom:20px;
+}
+
+.blurb h4{
+    padding-bottom:12px;
+    display:block;
+    overflow:auto;
+    width:100%
+}
+
+.blurb .left {
+    float: left;
+    width: 200px;
+    display: block;
+}
+
+.blurb .right {
+    padding-left:20px;
+    height:auto;
+    overflow:hidden;
+}
+
+.blurb .right p {
+    padding-top:0px;
+    padding-bottom:12px;
+    height:auto;
+    overflow:hidden;
 }
 
 
@@ -775,4 +865,5 @@ footer
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
+
 

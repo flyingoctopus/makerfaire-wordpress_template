@@ -6,6 +6,8 @@
 ?>
 	<div id="sidebar" role="complementary">		
 		<ul>
+                
+            <div id="countdown"></div>
             <div id="ticketsButton"><a href="http://vancouvermakerfaire.eventbrite.com?ref=ebtn">Buy Tickets</a></div>
             <br />
             <div id="mailinglistButton"><a href="http://vancouvermakerfaire.wufoo.com/forms/mailing-list-sign-up/">Join Mailing List</a></div>
@@ -65,4 +67,88 @@
 		</div><!-- #primary .widget-area -->
     </ul> 
 
+
+<script>
+        function countDown(id, end, cur) {
+            this.container = document.getElementById(id);
+            this.endDate = new Date(end);
+            this.curDate = new Date(cur);
+
+
+            var context = this;
+
+            var formatResults = function(day, hour, minute, second) {
+                if(day < 10) {
+                    day = '0' + day;
+                }
+
+                if(hour < 10) {
+                    hour = '0' + hour;
+                }
+
+                if(minute < 10) {
+                    minute = '0' + minute;
+                }
+
+                if(second < 10) {
+                    second = '0' + second;
+                }
+
+                var displayString = [
+                            '<div class="countdownBlock3"><h2>Countdown Until Maker Faire:</h2></div>',
+                            '<div class="countdownBlock"><h3>',day,'</h3><p>days</p></div>',
+                            '<div class="countdownBlock2"><h3>:</h3></div>',
+                            '<div class="countdownBlock"><h3>',hour,'</h3><p>hours</p></div>',
+                            '<div class="countdownBlock2"><h3>:</h3></div>',
+                            '<div class="countdownBlock"><h3>',minute,'</h3><p>minutes</p></div>',
+                            '<div class="countdownBlock2"><h3>:</h3></div>',
+                            '<div class="countdownBlock"><h3>',second,'</h3><p>seconds</p></div>'
+                ];
+
+                var displayString2 = [
+                            '<div class="countdownInner">',day,' days,',
+                            ' ',hour,' hours',
+                            ' and ',minute,' minutes left!',
+                            '</div>'
+                ];
+                return displayString.join("");
+            }
+
+            var update = function() {
+                context.curDate.setSeconds(context.curDate.getSeconds()+1);
+
+                var timediff = (context.endDate-context.curDate)/1000; 
+
+                // Check if timer expired:
+                if (timediff<0) {
+                    return context.container.innerHTML = formatResults(0,0,0,0);
+                }
+
+                var oneMinute=60; //minute unit in seconds
+                var oneHour=60*60; //hour unit in seconds
+                var oneDay=60*60*24; //day unit in seconds
+
+                var dayfield=Math.floor(timediff/oneDay);
+                var hourfield=Math.floor((timediff-dayfield*oneDay)/oneHour);
+                var minutefield=Math.floor((timediff-dayfield*oneDay-hourfield*oneHour)/oneMinute);
+                var secondfield=Math.floor((timediff-dayfield*oneDay-hourfield*oneHour-minutefield*oneMinute));
+
+                context.container.innerHTML = formatResults(dayfield, hourfield, minutefield, secondfield);
+
+                // Call recursively
+                setTimeout(update, 1000);
+            };
+
+            // Call the recursive loop
+            update();
+        }
+
+
+        countDown("countdown", new Date("June 25, 2011 10:00:00").getTime(), new Date().getTime());
+        //console.log( new Date("June 25, 2011 10:00:00").getTime() );
+
+</script>
+
+
 </div>
+

@@ -56,8 +56,8 @@
 		<?php if (is_front_page()) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog-selected"><a href="/">Blog</a></li>
+					<li id="nav-about-selected"><a href="/about/">About</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
@@ -79,11 +79,24 @@
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
+		<?php } elseif (is_page('blog')) { ?>
+			<div id="nav">
+				<ul class="nav">
+					<li id="nav-about"><a href="/about/">About</a></li>
+					<li id="nav-blog-selected"><a href="/blog/">Blog</a></li>
+					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
+					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
+					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
+					<li id="nav-contact"><a href="/contact/">Contact</a></li>
+				</ul>
+			</div>
 		<?php } elseif (is_page('makers')) { ?>
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers-selected"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
@@ -96,20 +109,20 @@
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about"><a href="/about">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets-selected"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
 					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
 					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact-selected"><a href="/contact/">Contact</a></li>
+					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
 		<?php } elseif (is_page('sponsorship')) { ?>
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship-selected"><a href="/sponsorship/">Sponsors</a></li>
@@ -121,12 +134,12 @@
 		<?php } elseif (is_page('visitor_info')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-about-selected"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-about"><a href="/about/">About</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-visitor-info-selected"><a href="/visitor_info/">Visitor Info</a></li>
 					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact"><a href="/contact/">Contact</a></li>
 				</ul>
@@ -134,8 +147,8 @@
 		<?php } elseif (is_page('media_centre')) { ?>
 			<div id="nav">
 				<ul class="nav">
-					<li id="nav-about-selected"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-about"><a href="/about/">About</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
@@ -148,7 +161,7 @@
 			<div id="nav">
 				<ul class="nav">
 					<li id="nav-about"><a href="/about">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
+					<li id="nav-blog"><a href="/blog/">Blog</a></li>
 					<li id="nav-makers"><a href="/makers/">Makers</a></li>
 					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
 					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
@@ -156,8 +169,23 @@
 					<li id="nav-media"><a href="/media/">Media</a></li>
 					<li id="nav-contact-selected"><a href="/contact/">Contact</a></li>
 				</ul>
+            </div>
+    <?php } else { ?>
+			<div id="nav">
+				<ul class="nav">
+					<li id="nav-about"><a href="/about/">About</a></li>
+					<li id="nav-blog-selected"><a href="/blog/">Blog</a></li>
+					<li id="nav-makers"><a href="/makers/">Makers</a></li>
+					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
+					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
+					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
+					<li id="nav-media"><a href="/media/">Media</a></li>
+					<li id="nav-contact"><a href="/contact/">Contact</a></li>
+				</ul>
 			</div>
 		<?php } ?>
+
 		</header>
 
 		<div id="main">
+
