@@ -1,4 +1,5 @@
-#  HTML5 Boilerplate [http://html5boilerplate.com](http://html5boilerplate.com)
+#  Maker Faire Boilerplate
+[http://vancouver.makerfaire.ca](http://vancouver.makerfaire.ca)
 
 ## Changelog:
 
