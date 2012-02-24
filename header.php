@@ -49,9 +49,9 @@
 			<a href="/" id="header-logo-anchor">
 				<h1 id="header-logo">MakerFaire Vancouver</h1>
 			</a>
-			<a href="" id="header-logo-anchor">
+			<!--<a href="" id="header-logo-anchor">
 				<h2 id="sub-header">June 25th & 26th at the Great Northern Way Campus</h2>
-			</a>
+			</a> -->
 			
 		<?php if (is_front_page()) { ?>
 			<div id="nav">
@@ -188,4 +188,3 @@
 		</header>
 
 		<div id="main">
-

@@ -7,8 +7,10 @@
 	<div id="sidebar" role="complementary">		
 		<ul>
                 
-            <div id="countdown"></div>
+            <!-- <div id="countdown"></div> -->
             <div id="ticketsButton"><a href="http://vancouvermakerfaire.eventbrite.com?ref=ebtn">Buy Tickets</a></div>
+            <br />
+            <div id="volunteerButton"><a href="https://vancouvermakerfaire.wufoo.com/forms/i-want-to-volunteer-in-2012/">Become a Volunteer for Vancouver Maker Faire</a></div>
             <br />
             <div id="mailinglistButton"><a href="http://vancouvermakerfaire.wufoo.com/forms/mailing-list-sign-up/">Join Mailing List</a></div>
 			
@@ -95,7 +97,7 @@
                 }
 
                 var displayString = [
-                            '<div class="countdownBlock3"><h2>Countdown Until Maker Faire:</h2></div>',
+                            '<div class="countdownBlock3"><h2>Countdown Until Vancouver Maker Faire:</h2></div>',
                             '<div class="countdownBlock"><h3>',day,'</h3><p>days</p></div>',
                             '<div class="countdownBlock2"><h3>:</h3></div>',
                             '<div class="countdownBlock"><h3>',hour,'</h3><p>hours</p></div>',
@@ -144,7 +146,7 @@
         }
 
 
-        countDown("countdown", new Date("June 25, 2011 10:00:00").getTime(), new Date().getTime());
+        countDown("countdown", new Date("June 25, 2012 10:00:00").getTime(), new Date().getTime());
         //console.log( new Date("June 25, 2011 10:00:00").getTime() );
 
 </script>
