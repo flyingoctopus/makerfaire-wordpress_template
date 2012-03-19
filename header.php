@@ -49,141 +49,14 @@
 			<a href="/" id="header-logo-anchor">
 				<h1 id="header-logo">MakerFaire Vancouver</h1>
 			</a>
-			<!--<a href="" id="header-logo-anchor">
-				<h2 id="sub-header">June 25th & 26th at the Great Northern Way Campus</h2>
-			</a> -->
-			
-		<?php if (is_front_page()) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about-selected"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('about')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about-selected"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('blog')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog-selected"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('makers')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers-selected"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('tickets')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets-selected"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('sponsorship')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship-selected"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('visitor_info')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info-selected"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('media_centre')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media-selected"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } elseif (is_page('contact')) { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about">About</a></li>
-					<li id="nav-blog"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact-selected"><a href="/contact/">Contact</a></li>
-				</ul>
-            </div>
-    <?php } else { ?>
-			<div id="nav">
-				<ul class="nav">
-					<li id="nav-about"><a href="/about/">About</a></li>
-					<li id="nav-blog-selected"><a href="/blog/">Blog</a></li>
-					<li id="nav-makers"><a href="/makers/">Makers</a></li>
-					<li id="nav-tickets"><a href="/tickets/">Tickets</a></li>
-					<li id="nav-sponsorship"><a href="/sponsorship/">Sponsors</a></li>
-					<li id="nav-visitor-info"><a href="/visitor_info/">Visitor Info</a></li>
-					<li id="nav-media"><a href="/media/">Media</a></li>
-					<li id="nav-contact"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
-		<?php } ?>
+			<a href="" id="header-logo-anchor">						
+				<h2 id="sub-header">June 23th & 24th at the Pacific National Exhibition</h2>
+			</a>
+		
+		<div id='nav'>
+		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' , 'menu_class'=>'nav') );  ?>
+		</div>
+
 
 		</header>
 

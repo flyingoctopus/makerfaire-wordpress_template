@@ -118,7 +118,6 @@ header
 #top-stripe
 {
 	width:100%;
-	height:5px;
 	background-color: #f3a32e;
 }
 
@@ -131,16 +130,16 @@ header
 #header-logo
 {
 	background: url('images/logo.png');
-	width:520px;
-	height:149px;
+	width:414px;
+	height:156px;
 	text-indent: -100000px;
 }
 
 #sub-header
 {
-	background: url('images/header_sub.png');
-	width:342px;
-	height:80px;
+	background: url('images/date_location.png');
+	width:347px;
+	height:53px;
 	text-indent: -100000px;
 	position:absolute;
 	right:20px;
@@ -170,8 +169,8 @@ header
 }
 
 /*about*/
-.nav #nav-about a
-{
+
+.nav li:nth-child(1) a{
 	display:block;
 	position:relative;
 	background: url('images/nav_about_74x29.png') 0px 0px;
@@ -180,8 +179,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-about a:hover
-{
+.nav li:nth-child(1) a:hover{
 	display:block;
 	position:relative;
 	background: url('images/nav_about_74x29.png') 0px 29px;
@@ -190,8 +188,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-about-selected a
-{
+.nav li:nth-child(1).current_page_item a{
 	display:block;
 	position:relative;
 	background: url('images/nav_about_74x29.png') 0px 29px;
@@ -202,7 +199,7 @@ header
 /*about end*/
 
 /*nav blog*/
-.nav #nav-blog a
+.nav li:nth-child(2) a
 {
 	display:block;
 	position:relative;
@@ -212,21 +209,21 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-blog a:hover
+.nav li:nth-child(2) a:hover
 {
 	display:block;
 	position:relative;
-	background: url('images/nav_blog_58x29.png') 0px 0px;
+	background: url('images/nav_blog_58x29.png') 0px 29px;
 	width:58px;
-	height:29px;
+	height:30px;
 	text-indent: -100000px;
 }
 
-.nav #nav-blog-selected a
+.nav li:nth-child(2).current_page_item a
 {
 	display:block;
 	position:relative;
-	background: url('images/nav_blog_58x29.png') 0px 30px;
+	background: url('images/nav_blog_58x29.png') 0px 29px;
 	width:58px;
 	height:29px;
 	text-indent: -100000px;
@@ -234,7 +231,7 @@ header
 /*blog end*/
 
 /*makers*/
-.nav #nav-makers a
+.nav li:nth-child(3) a
 {
 	display:block;
 	position:relative;
@@ -243,8 +240,7 @@ header
 	height:29px;
 	text-indent: -100000px;
 }
-
-.nav #nav-makers a:hover
+.nav li:nth-child(3) a:hover
 {
 	display:block;
 	position:relative;
@@ -254,7 +250,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-makers-selected a
+.nav li:nth-child(3).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -266,7 +262,7 @@ header
 /*makers end*/
 
 /*tickets*/
-.nav #nav-tickets a
+.nav li:nth-child(4) a
 {
 	display:block;
 	position:relative;
@@ -276,7 +272,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-tickets a:hover
+.nav li:nth-child(4) a:hover
 {
 	display:block;
 	position:relative;
@@ -286,7 +282,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-tickets-selected a
+.nav li:nth-child(4).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -299,7 +295,7 @@ header
 
 
 /*sponsorship*/
-.nav #nav-sponsorship a
+.nav li:nth-child(5) a
 {
 	display:block;
 	position:relative;
@@ -308,7 +304,8 @@ header
 	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-sponsorship-selected a
+
+.nav li:nth-child(5) a:hover
 {
 	display:block;
 	position:relative;
@@ -318,7 +315,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-sponsorship a:hover
+.nav li:nth-child(5).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -331,7 +328,7 @@ header
 
 
 /*visitor-info*/
-.nav #nav-visitor-info a
+.nav li:nth-child(6) a
 {
 	display:block;
 	position:relative;
@@ -340,7 +337,8 @@ header
 	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-visitor-info-selected a
+
+.nav li:nth-child(6) a:hover
 {
 	display:block;
 	position:relative;
@@ -350,7 +348,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-visitor-info a:hover
+.nav li:nth-child(6).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -362,7 +360,7 @@ header
 /*visitor-info*/
 
 /*media*/
-.nav #nav-media a
+.nav li:nth-child(7) a
 {
 	display:block;
 	position:relative;
@@ -371,7 +369,8 @@ header
 	height:29px;
 	text-indent: -100000px;
 }
-.nav #nav-media-selected a
+
+.nav li:nth-child(7) a:hover
 {
 	display:block;
 	position:relative;
@@ -381,7 +380,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-media a:hover
+.nav li:nth-child(7).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -393,7 +392,7 @@ header
 /*visitor-info*/
 
 /*contact*/
-.nav #nav-contact a
+.nav li:nth-child(8) a
 {
 	display:block;
 	position:relative;
@@ -402,7 +401,8 @@ header
 	height:30px;
 	text-indent: -100000px;
 }
-.nav #nav-contact-selected a
+
+.nav li:nth-child(8) a:hover
 {
 	display:block;
 	position:relative;
@@ -412,7 +412,7 @@ header
 	text-indent: -100000px;
 }
 
-.nav #nav-contact a:hover
+.nav li:nth-child(8).current_page_item a
 {
 	display:block;
 	position:relative;
@@ -423,8 +423,13 @@ header
 }
 /*contact end*/
 
-/*main content*/
+.current_page_item
+{
+    border: 5px;
 
+}
+
+/*main content*/
 #main
 {
 	
@@ -905,5 +910,3 @@ footer
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
-
-
